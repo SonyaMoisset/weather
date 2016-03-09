@@ -1,0 +1,21 @@
+{
+  "name": "react-weather",
+  "description": "Weather App w/ React",
+  "main": "index.js",
+  "authors": [
+    "Sonya Moisset"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "weather-icons": "^2.0.10"
+  }
+}

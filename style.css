@@ -1,0 +1,82 @@
+.weather-widget {
+  width: 100%;
+  color: white;
+  font-family: league-gothic, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding: 5% 10%; }
+  @media (max-width: 500px) {
+    .weather-widget {
+      padding: 2%; } }
+  .weather-widget.very-warm {
+    background-color: #FF8500; }
+  .weather-widget.warm {
+    background-color: #ffc600; }
+  .weather-widget.normal {
+    background-color: #94AF10; }
+  .weather-widget.cold {
+    background-color: #06799F; }
+  .weather-widget.very-cold {
+    background-color: #233884; }
+
+.city {
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  text-align: center; }
+
+.weather {
+  display: table;
+  height: 415px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid white; }
+  @media (max-width: 500px) {
+    .weather {
+      height: 350px; } }
+  .weather .wi {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20em; }
+    @media (max-width: 500px) {
+      .weather .wi {
+        font-size: 15em; } }
+
+.weather-details {
+  overflow: hidden;
+  margin-top: 35px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto; }
+  .weather-details .temp {
+    font-size: 13.5em;
+    float: left;
+    width: 55%;
+    max-height: 200px; }
+    @media (max-width: 500px) {
+      .weather-details .temp {
+        font-size: 9em; } }
+    .weather-details .temp .temp-number, .weather-details .temp .wi {
+      vertical-align: top;
+      line-height: 0.85em; }
+    .weather-details .temp .wi {
+      font-size: 1.5em;
+      line-height: 0.8em; }
+  .weather-details .humidity, .weather-details .wind {
+    font-size: 5em; }
+    @media (max-width: 500px) {
+      .weather-details .humidity, .weather-details .wind {
+        font-size: 3em; } }
+    .weather-details .humidity .wi, .weather-details .wind .wi {
+      vertical-align: top;
+      width: 70px; }
+      @media (max-width: 500px) {
+        .weather-details .humidity .wi, .weather-details .wind .wi {
+          width: 40px; } }
+  .weather-details .humidity {
+    margin-bottom: 20px; }
+  .weather-details .wind .wi {
+    font-size: 0.82em; }
+  .weather-details .wind .vel {
+    font-size: 0.6em; }
